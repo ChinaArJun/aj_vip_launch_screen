@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Metro X - Premium Transit</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Splash Screen -->
+    <div id="splash-screen" class="splash-screen">
+        <div class="splash-content">
+            <div class="logo-container">
+                <div class="logo-circle"></div>
+                <div class="logo-line"></div>
+            </div>
+            <h1 class="app-name">METRO <span class="highlight">X</span></h1>
+            <p class="tagline">The Future of Transit</p>
+        </div>
+    </div>
+
+    <!-- Main App Container -->
+    <div id="app-container" class="app-container hidden">
+        
+        <!-- Background Layers -->
+        <div class="bg-layer active" id="bg-1" style="background-image: url('assets/bg_speed.png');"></div>
+        <div class="bg-layer" id="bg-2" style="background-image: url('assets/bg_nodes.png');"></div>
+        <div class="bg-layer" id="bg-3" style="background-image: url('assets/bg_speed.png'); filter: hue-rotate(45deg);"></div> <!-- Reusing with filter for variety -->
+        <div class="bg-layer" id="bg-4" style="background-image: url('assets/bg_glass.png');"></div>
+
+        <!-- Header -->
+        <header class="top-bar">
+            <div class="skip-btn" id="skip-btn">Skip</div>
+        </header>
+
+        <!-- Swiper Container -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper" id="swiper-wrapper">
+                
+                <!-- Slide 1 -->
+                <div class="slide">
+                    <div class="slide-content">
+                        <div class="icon-box glow-blue">
+                            <i class="ri-radar-line"></i>
+                        </div>
+                        <h2>Real-Time<br>Precision</h2>
+                        <p>Live tracking of every train in the network. Know exactly when to arrive, down to the second.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 2 -->
+                <div class="slide">
+                    <div class="slide-content">
+                        <div class="icon-box glow-amber">
+                            <i class="ri-map-pin-user-line"></i>
+                        </div>
+                        <h2>Smart<br>Navigation</h2>
+                        <p>AR-powered guidance through complex interchanges. Never get lost in the underground again.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 3 -->
+                <div class="slide">
+                    <div class="slide-content">
+                        <div class="icon-box glow-cyan">
+                            <i class="ri-smartphone-line"></i>
+                        </div>
+                        <h2>Seamless<br>Access</h2>
+                        <p>Tap to pay with NFC. Integrated digital tickets for all major transit lines worldwide.</p>
+                    </div>
+                </div>
+
+                <!-- Slide 4: Subscription -->
+                <div class="slide">
+                    <div class="slide-content subscription-content">
+                        <div class="premium-badge">METRO X PRO</div>
+                        <h2>Upgrade Your<br>Journey</h2>
+                        
+                        <div class="subscription-card">
+                            <div class="card-header">
+                                <span class="plan-name">Annual Pass</span>
+                                <span class="plan-price">$4.99<small>/mo</small></span>
+                            </div>
+                            <ul class="benefits-list">
+                                <li><i class="ri-check-line"></i> Ad-free experience</li>
+                                <li><i class="ri-check-line"></i> Offline 3D Maps</li>
+                                <li><i class="ri-check-line"></i> Priority Support</li>
+                                <li><i class="ri-check-line"></i> Family Sharing (up to 5)</li>
+                            </ul>
+                            <button class="cta-btn primary">Start 7-Day Free Trial</button>
+                            <p class="terms">Cancel anytime. Terms apply.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Pagination / Controls -->
+        <div class="bottom-controls">
+            <div class="pagination">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="next-btn" id="next-btn">
+                <i class="ri-arrow-right-line"></i>
+            </button>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
