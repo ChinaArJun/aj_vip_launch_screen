@@ -1,0 +1,6 @@
+framework module AJVIPLaunchScreen {
+  umbrella header "AJVIPLaunchScreen-umbrella.h"
+
+  export *
+  module * { export * }
+}

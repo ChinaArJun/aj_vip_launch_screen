@@ -1,0 +1,16 @@
+PODS:
+  - AJVIPLaunchScreen (1.0.0)
+
+DEPENDENCIES:
+  - AJVIPLaunchScreen (from `./AJVIPLaunchScreen`)
+
+EXTERNAL SOURCES:
+  AJVIPLaunchScreen:
+    :path: "./AJVIPLaunchScreen"
+
+SPEC CHECKSUMS:
+  AJVIPLaunchScreen: a7a4d3c283842779fa33aabd534e2dd292b55a92
+
+PODFILE CHECKSUM: 647d66b3c3bb0aa480b2be3bc7d65cb2de0dcbfe
+
+COCOAPODS: 1.16.2

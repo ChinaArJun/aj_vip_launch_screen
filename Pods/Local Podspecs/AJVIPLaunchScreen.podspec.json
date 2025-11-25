@@ -1,0 +1,30 @@
+{
+  "name": "AJVIPLaunchScreen",
+  "version": "1.0.0",
+  "summary": "A customizable launch screen library with multiple beautiful styles for iOS apps.",
+  "description": "AJVIPLaunchScreen provides elegant, animated launch screens for iOS applications.\nFeatures include:\n- Multiple pre-designed styles (METRO X tech theme, Balloon playful theme)\n- Smooth animations and transitions\n- Easy integration via CocoaPods\n- Customizable colors and content\n- Localization support (English and Chinese)\n- Delegate callbacks for user interactions",
+  "homepage": "https://github.com/ChinaArJun/aj_vip_launch_screen",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Arjun": "your.email@example.com"
+  },
+  "source": {
+    "git": "https://github.com/ChinaArJun/aj_vip_launch_screen.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "13.0"
+  },
+  "swift_versions": "5.0",
+  "source_files": "AJVIPLaunchScreen/Classes/**/*.swift",
+  "resource_bundles": {
+    "AJVIPLaunchScreen": [
+      "AJVIPLaunchScreen/Assets/**/*.{png,xcassets}"
+    ]
+  },
+  "frameworks": "UIKit",
+  "swift_version": "5.0"
+}
